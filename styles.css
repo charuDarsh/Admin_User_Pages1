@@ -1,0 +1,63 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Header Styles */
+header.navbar {
+    background-color: #007bff;
+    color: #fff;
+}
+
+header.navbar .navbar-brand {
+    color: #fff;
+}
+header.navbar .btn {
+    color: #fff;
+    border: none;
+}
+
+/* Profile Card Styles */
+.card {
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+/* Table Styles */
+.table thead th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.table tbody tr:hover {
+    background-color: #e9ecef;
+}
+/* Input Field Styles */
+input.form-control {
+    margin-bottom: 20px;
+    border-radius: 0.25rem;
+}
+
+/* Footer Styles */
+footer.footer {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}

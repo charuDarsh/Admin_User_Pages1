@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Site Logo</a>
+        <div class="ml-auto">
+            <a class="btn btn-primary" href="#">Profile</a>
+            <a class="btn btn-secondary" href="#">Logout</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2>User Profile</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="passport-image2.jpeg" class="card-img-top" alt="Profile Picture">
+                    <div class="card-body">
+                        <h5 class="card-title">User Name</h5>
+                        <p class="card-text">user@example.com</p>
+                        <a href="#" class="btn btn-primary">Edit Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <h3>Recent Orders</h3>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Item Name</th>
+                            <th scope="col">Quantity</th>
+                            <th scope="col">Price</th>
+                            <th scope="col">Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Item 1</td>
+                            <td>2</td>
+                            <td>$20.00</td>
+                            <td>2024-09-15</td>
+                        </tr>
+                        <tr>
+                            <td>Item 2</td>
+                            <td>1</td>
+                            <td>$15.00</td>
+                            <td>2024-09-18</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3>Search Orders</h3>
+                <input type="text" class="form-control" placeholder="Search by item name or date">
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer bg-light text-center">
+        <p>&copy; 2024 User Page. All rights reserved.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
